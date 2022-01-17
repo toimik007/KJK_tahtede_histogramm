@@ -9,7 +9,6 @@ while 1:
         teksti_ridu = int(sisend_rida)
     else:
         print(sisend_rida)
-
         reapikkus=len(sisend_rida)
         #nüüd teame kui pikk on rida, saame for tsükli teha.
 
