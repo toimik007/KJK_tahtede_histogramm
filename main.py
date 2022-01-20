@@ -3,13 +3,18 @@ rida = 0
 teksti_ridu = -1
 while 1:
     sisend_rida = sisend.readline() #sisend_rida on list. List tähtedest / märkidest, mis on ühel real.
-    if not sisend_rida or rida >= teksti_ridu:
+    if not sisend_rida:
         break
     if rida == 0:
         teksti_ridu = int(sisend_rida)
     else:
         print(sisend_rida)
         reapikkus=len(sisend_rida)
+        for taht in range(0, reapikkus):
+            print(sisend_rida[taht])
+
+
+
         #nüüd teame kui pikk on rida, saame for tsükli teha.
 
         #teine võimalus on kasutada for taht in sisend_rida:
